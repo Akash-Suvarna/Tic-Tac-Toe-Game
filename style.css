@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #9FB8AD;
+    text-align: center;
+}
+
+.container {
+    
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5vmin;
+
+    
+}
+
+.box {
+   
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 9vmin;
+    background-color: #CED0CE;
+    color: #475841;
+    
+   
+}
+
+#reset {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3F403F;
+    color:#CED0CE;
+    font-weight: bolder;
+  
+}
+
+.hide {
+    display: none;
+}
+
+#newGame {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3F403F;
+    color:#CED0CE;
+    font-weight: bolder;
+}
+
+#msg {
+    color:#3F403F;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 50px;
+}
+.winMsg{
+    padding: 250px;
+
+}
+
+h1 {
+    color: black;
+    
+
+}
